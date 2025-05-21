@@ -4,7 +4,6 @@ var rotacion = 0
 
 
 func _physics_process(delta: float) -> void:
-	
 	if Input.is_action_just_pressed("ruedaMouseArriba"):
 		if rotacion >= 3:
 			rotacion = 0
